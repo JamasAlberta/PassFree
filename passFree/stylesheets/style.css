@@ -1,0 +1,362 @@
+/* Testing Area 
+
+End of Testing Area*/
+
+
+    html {
+        /* background-color: rgb(225,244,250); */
+        font-family: 'Open Sans', sans-serif;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    * {
+    box-sizing: border-box;
+    }
+    
+    header {
+        color: white;
+        font-size: medium;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        background-color: rgb(192,192,192);
+        text-shadow: 1px 1px 2px #033;
+        vertical-align: top;
+        top: 0;
+        text-align:center;
+        position: fixed;
+        width: 100%;
+        height: 8%;
+    }
+    
+    .logo {
+        float: left;
+        margin-top: 0;
+        margin-left: 2%;
+    }
+    
+    body {
+        margin: 0 auto;
+    }
+    
+    main {
+        background-color: rgb(227,227,227);
+        margin: 0 auto;
+        vertical-align: middle;
+    }
+    
+    form {
+        background-color: rgb(227,227,227);
+        font-family: 'Open Sans', sans-serif;
+        margin: 10% auto;
+        text-align: center;
+    }
+    
+    .spacing {
+        padding: 1%;
+    }
+    
+    #contact, #view, #passwordForm {
+        margin-top: 5%;
+    }
+    
+    #pwordEd {
+        background-color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: small;
+        margin: 0;
+        padding: 1%;
+        text-align: left;
+        width: 60%;
+        height: 350px;
+        overflow: auto;
+    }
+    
+    #display {
+        /* background-color: rgb(248,248,248); */
+        font-family: 'Open Sans', sans-serif;
+        font-size: small;
+        margin: 0 auto;
+/*        padding: 1%; */
+        text-align: left;
+/*        width: 60%;   */
+        height: 300px;
+        overflow: auto;
+    }
+    
+    footer {
+        color: rgb(47, 45, 49);
+        font-size: medium;
+        font-family: 'Open Sans', sans-serif;
+        background-color: rgb(192,192,192);
+        position: fixed;
+        width: 100%;
+        height: 8%;
+        bottom: 0;
+        padding-top: 2%;
+        margin: 0 auto;
+    }
+    
+    .copyright {
+        float: left;
+        margin: 0;
+        margin-left: 2%;
+        width: 20%;
+        text-align: left;
+    }
+    
+    date {
+        margin: 0 auto;
+        text-align: center;
+        width: 20%;
+    }
+    
+    input[type=text] {
+        margin:15px auto 15px;
+        display:block;
+        font-size: medium;
+        text-align: left;
+        width: 30%;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+    
+    input[type=text]:focus {
+        border: 1px solid rgb(169, 169, 170);
+    }
+    
+    input:focus::-webkit-input-placeholder {
+        opacity: 0;
+    }
+    
+    button {
+        margin:15px auto 15px;
+        display:block;
+        font-size: medium;
+        padding: 5px;
+        width: 12%;
+        border: none;
+        border-radius: 5px;
+        background: rgb(0,160,227);
+        color: white;
+        transition-duration: 0.3s;
+    }    
+
+    button:hover {
+        background: rgb(0,90,173);
+        color: white;
+    }
+    
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
+    }
+    
+    a:hover, a:active {
+        color: blue;
+        
+    }
+    
+    a.contact:link, a.contact:visited {
+        color: rgb(47, 45, 49);
+        float: right;
+        width: 20%;
+        margin: 0;
+        margin-right: 2%;
+        text-align: right;
+    }
+    
+    a.logout:link, a.logout:visited {
+        color: rgb(47, 45, 49);
+        float: right;
+        width: 5%;
+        margin-right: 2%;
+        margin-top: 1%;
+        text-shadow: none;
+        font-weight: normal;
+    }
+    
+    a.contact:hover, a.contact:active, a.logout:hover, a.logout:active {
+        color: white;
+    }
+    
+    #homepage {
+        background-color: rgb(227,227,227);
+        margin: 5% auto;
+    }
+    
+    #signup {
+        margin-top: 3%;
+    }
+    
+    #editqs {
+        margin-top: 1%;
+    }
+    
+    #homepage img {
+        margin: 0 auto;
+    }
+    
+    p {
+        margin: 20px auto;
+        width: 50%;
+    }
+    
+    #nostyle {
+        margin: 0 auto;
+        bottom: 2%;
+    }
+    
+    .error {
+        color: red;
+    }
+    
+    fieldset {
+        width: 40%;
+        border-radius: 5px;
+        margin: 5px auto;
+        border-color: rgb(227,227,227);
+    }
+    
+    .display {
+        width: 65%;
+        margin: 0 auto;
+    }
+    
+    #question1, #question2, #question3, #question4 {
+        width: 75%;
+        margin: 2% auto;
+    }
+
+    #answer1, #answer2, #answer3, #answer4 {
+        width: 60%;
+        margin: 2% auto 0;
+
+    }
+    
+    #login #question1, #login #question2, #login #question3, #login #question4 {
+        margin: 0 auto;
+    }
+    
+    #login #answer1, #login #answer2, #login #answer3, #login #answer4 {
+        width: 30%;
+        margin: 0 auto;
+    }                       
+    
+    #name, #signname {
+        margin: 0 auto;
+    }
+    
+    #email, #signemail {
+        margin: 1% auto;
+    }
+    
+    legend {
+        text-align: left;
+        font-size: 80%;
+    }
+    
+    .success {
+        color: green;
+    }
+    
+    .case {
+        font-size: 60%;
+        text-align: right;
+        width: 30%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .casea {
+        font-size: 60%;
+        text-align: right;
+        width: 60%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    @media only screen and (max-width: 1050px) {
+
+    header {
+        font-size: small;
+        height: 6%;
+    }
+    
+    #pfimg {
+        width: 60%;
+        height: auto;
+    }
+
+    footer {
+        font-size: small;
+        height: 5%;
+        bottom: 1%;
+    }
+    
+    .copyright {
+        width: 40%;
+    }
+        
+    main {
+        font-size: small;
+        width: 100%;
+    }
+    
+    form {
+        margin: 0 auto;
+    }
+    
+    #homepage {
+        margin-top: 25%;
+    } 
+    
+    p {
+        width: 100%;
+    }
+    
+    .spacing {
+        padding: 0.5%;
+    }
+    
+     input[type=text] {
+        margin: 4% auto;
+        font-size: small;
+        width: 50%;
+    }
+
+    button {
+        font-size: small;
+        width: 30%;
+    }
+    
+    a.logout:link, a.logout:visited {
+        width: 10%;
+        margin-right: 5%;
+    }
+    
+    a.contact:link, a.contact:visited {
+        width: 40%;
+    }
+    
+    fieldset {
+        width: 80%;
+    }
+    
+     
+    #login #answer1, #login #answer2, #login #answer3, #login #answer4 {
+        width: 60%;
+    }
+    
+    .case {
+        width: 50%;
+    }
+        
+    }
